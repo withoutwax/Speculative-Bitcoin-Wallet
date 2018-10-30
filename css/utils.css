@@ -1,0 +1,12 @@
+.icon-hover-01 {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.icon-hover-01::after {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-01:hover {
+    margin-top: 5px;
+}

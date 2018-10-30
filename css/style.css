@@ -3,25 +3,21 @@
 body {
     font-family: 'Inconsolata', monospace;
     color: black;
+    background-color: #f9f9f9;
 }
 a {
     text-decoration: none;
     color: red;
 }
-/* a:link a:visited a:hover a:active  {
-    text-decoration: none;
+h1 {
+    font-size: 2.5em;
     color: red;
 }
-a:visited {- a link the user has visited}
-a:hover {- a link when the user mouses over it}
-a:active {
-
-} */
 
 .landing-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 50px auto;
 
     height: 100%;
 }
@@ -63,9 +59,23 @@ a:active {
 #wallet-button {
     align-self: center;
 
-    border: solid black 2px;
+    /* border: solid black 2px; */
+    box-shadow: 0px 0px 15px 0px #cccccc;
     border-radius: 30px;
     padding: 10px 25px 10px 25px;
 
     max-width: 50px;
+
+    /* ANIMATION SETTINGS */
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#wallet-button::after {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#wallet-button:hover {
+    box-shadow: 0px 0px 20px 0px #bcbcbc;
+    transform: scale(1.05);
 }
