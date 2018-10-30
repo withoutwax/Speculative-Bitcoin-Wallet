@@ -38,6 +38,10 @@
 
 .explanation-image {
     background-image: url(./assets/wallet_instruction_A.png);
+    /* min-width: 500px; */
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 #read-more-button {

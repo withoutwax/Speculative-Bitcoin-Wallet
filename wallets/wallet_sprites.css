@@ -1,0 +1,55 @@
+/* FIRST ROW */
+#wallet_0101 {
+    background-position: -19px -34px !important;
+}
+#wallet_0102 {
+    background-position: -305px -176px !important;
+}
+#wallet_0201 {
+    background-position: -738px -34px !important;
+}
+#wallet_0202 {
+    background-position: -1025px -176px !important;
+}
+
+/* SECOND ROW */
+#wallet_0301 {
+    background-position: -19px -503px !important; /* +469 */
+}
+#wallet_0302 {
+    background-position: -305px -645px !important;
+}
+#wallet_0401 {
+    background-position: -738px -503px !important;
+}
+#wallet_0402 {
+    background-position: -1025px -645px !important;
+}
+
+/* THIRD ROW */
+#wallet_0501 {
+    background-position: -19px -972px !important; /* +469 */
+}
+#wallet_0502 {
+    background-position: -305px -1114px !important;
+}
+#wallet_0601 {
+    background-position: -738px -972px !important;
+}
+#wallet_0602 {
+    background-position: -1025px -1114px !important;
+}
+
+/* FOURTH ROW */
+#wallet_0701 {
+    background-position: -19px -1441px !important; /* +469 */
+}
+#wallet_0702 {
+    background-position: -305px -1583px !important;
+}
+#wallet_0801 {
+    background-position: -738px -1441px !important;
+}
+#wallet_0802 {
+    background-position: -1025px -1583px !important;
+}
