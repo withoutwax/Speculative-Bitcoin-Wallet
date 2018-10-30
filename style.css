@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+/* a:link a:visited a:hover a:active  {
+    text-decoration: none;
+    color: red;
+}
+a:visited {- a link the user has visited}
+a:hover {- a link when the user mouses over it}
+a:active {
+
+} */
+
+.landing-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+    height: 100%;
+}
+.landing-navigation {
+    grid-row: 1 / 2;
+
+    justify-self: center;
+
+    /* FLEX BOX - for nav-items*/
+    display: flex;
+}
+/* Nav-Bar Menu icons */
+.landing-navigation > * {
+    margin: 0px 15px 0px 15px;
+}
+
+.landing-main {
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr 10vw;
+    grid-column-gap: 40px;
+    min-height: 80vh;
+
+    align-items: center;
+}
+.main-info {
+    grid-column: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+}
+.main-image {
+    grid-column: 3 / 4;
+}
+
+.explanation-image {
+    background-image: url(./assets/wallet_instruction_A.png);
+}
+
+#wallet-button {
+    align-self: center;
+
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+
+    max-width: 50px;
+}
