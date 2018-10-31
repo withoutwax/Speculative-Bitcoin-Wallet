@@ -3,18 +3,18 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    color: #b2b2b2;
-    background-color: #efefef;
+    color: white;
+    background-color: #2a3e4c;
 }
 a {
     font-family: 'Pacifico', cursive;
     text-decoration: none;
-    color: #b2b2b2;
+    color: white;
 }
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 2.5em;
-    color: #b2b2b2;
+    color: white;
 }
 p {
     color: inherit;

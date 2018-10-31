@@ -14,14 +14,11 @@ and (orientation : landscape) {
     .main-image > div {
         zoom: 0.6;
     }
-}
-
-
-@media screen and (max-width: 768px) {
-    .main-image > div {
-        zoom: 0.6;
+    p {
+        font-size: 0.8em;
     }
 }
+
 
 /*IPHONE SIZE*/
 @media screen and (max-width: 375px) {
