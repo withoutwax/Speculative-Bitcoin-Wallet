@@ -1,8 +1,11 @@
 /*WALLETS*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
     .wallet-nav {
         color: red;
         /*flex-direction: column;*/
+    }
+    p {
+        font-size: 2em;
     }
 }

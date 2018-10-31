@@ -47,6 +47,9 @@
 
     margin-bottom: 50px;
 }
+.wallet-main > header > p {
+    text-align: justify !important;
+}
 
 .wallet-main > span {
     background-image: url(../assets/all_wallets_2x.png);
