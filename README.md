@@ -4,3 +4,25 @@ This Bitcoin paper wallet captures the speculations, questions, and abstract tre
 
 Speculative Bitcoin Wallet (Illustrator)
 There will only be a limited number of Speculative Bitcoin Wallets that will be created, thus they will be scarce and their ownership and authorship can be confirmed through the SpeculativeBitcoinWallet token stored inside each of them through the Bitcoin Blockchain.
+
+### Other
+Just in case if we go back to having the read-more function, let's use this code:
+```JavaScript
+function readToggle() {
+    console.log("Button pressed!");
+
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("read-more");
+  var btnText = document.getElementById("read-more-button");
+
+  if (dots.style.display == "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+```

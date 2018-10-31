@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand');
+
 
 body {
-    font-family: 'Inconsolata', monospace;
-    color: black;
-    background-color: #f9f9f9;
+    font-family: 'Quicksand', sans-serif;
+    color: #b2b2b2;
+    background-color: #efefef;
 }
 a {
+    font-family: 'Pacifico', cursive;
     text-decoration: none;
-    color: red;
+    color: #b2b2b2;
 }
 h1 {
+    font-family: 'Pacifico', cursive;
     font-size: 2.5em;
-    color: red;
+    color: #b2b2b2;
 }
+p {
+    color: inherit;
+}
+
 
 
 .icon-hover-01 {
@@ -25,5 +32,7 @@ h1 {
     transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .icon-hover-01:hover {
-    margin-top: 5px;
+  transform: scale(1.1);
+  /*text-decoration: underline;*/
+    /*margin-top: 5px;*/
 }

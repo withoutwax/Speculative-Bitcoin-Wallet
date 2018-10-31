@@ -2,10 +2,12 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Speculative Bitcoin Wallet</title>
 
         <link rel="stylesheet" href="./css/utils.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style_responsive.css">
 
     </head>
     <body>
@@ -15,25 +17,33 @@
                 <span class="icon-hover-01"><a  href="#">Wallets</a></span>
                 <span class="icon-hover-01"><a  href="#">Speculative Bitcoin Wallet</a></span> -->
                 <!-- <a class="icon-hover-01" href="#"><p>Wallets</p></a> -->
-                <a class="icon-hover-01" href="./wallets/wallets.html"><p>Wallets</p></a>
-                <a class="icon-hover-01" href="#"><p>Contact</p></a>
+                <h1>Speculative Bitcoin Wallet</h1>
+                <header>
+                    <a class="icon-hover-01" href="./wallets/wallets.html"><p>Wallets</p></a>
+                    <a class="icon-hover-01" href="#"><p>Contact</p></a>
+                </header>
             </nav>
             <main class="landing-main">
                 <article class="main-info">
                     <section>
-                        <h1>Speculative <br> Bitcoin <br> Wallet</h1>
-                        <p>This Bitcoin paper wallet captures the speculations, questions, and abstract trends about the hype of Bitcoin, the first-ever cryptocurrency and the technological fuel behind it called Blockchain. <br><br> Every wallet is physically stamped with an internet headline that projects a speculation about the wild nature of this new economic currency. To make these wallets, I swept the internet to create a database of all the headlines posted about this digital currency and its technology in the past 10 years. <br><br><span id="dots">...</span>
-                            <span id="read-more" style="display:none">Interestingly, the amount of press that it got in 2017 was exponentially higher due to Bitcoin’s inflated price. The speculative nature of these headlines puts light on the eutopianness of this technology and the uncertainty around it. These headlines raise questions, make claims, and identify historical associations about this technological intervention in our society today.<br><br>Along with a physical manifestation of this wallet, there is a digital token stored in every wallet called the SpeculativeBitcoinWallet token. This token is a proof of authenticity about this physical object. Something like an artist signature, a deed or a contract that confirms the authorship and the ownership of this physical object on the Bitcoin blockchain.</span></p>
-                            <button id="read-more-button" onclick="readToggle()" type="read-more" name="read-more">Read more</button>
-                    </section>
-                    <a id="wallet-button" href="./wallets/wallets.html">Wallets</a>
+                        <p>This Bitcoin paper wallet captures the speculations, questions, and abstract trends about the hype of Bitcoin, the first-ever cryptocurrency and the technological fuel behind it called Blockchain.</p>
 
+                        <p>Every wallet is physically stamped with an internet headline that projects a speculation about the wild nature of this new economic currency. To make these wallets, I swept the internet to create a database of all the headlines posted about this digital currency and its technology in the past 10 years.</p>
+
+                        <p>Interestingly, the amount of press that it got in 2017 was exponentially higher due to Bitcoin’s inflated price. The speculative nature of these headlines puts light on the eutopianness of this technology and the uncertainty around it. These headlines raise questions, make claims, and identify historical associations about this technological intervention in our society today.</p>
+
+                        <p>Along with a physical manifestation of this wallet, there is a digital token stored in every wallet called the SpeculativeBitcoinWallet token. This token is a proof of authenticity about this physical object. Something like an artist signature, a deed or a contract that confirms the authorship and the ownership of this physical object on the Bitcoin blockchain.</p>
+                      </section>
+                    <!-- <a id="wallet-button" href="./wallets/wallets.html">Wallets</a> -->
                 </article>
+
                 <article class="main-image">
-                    <img src="./assets/wallet_instruction_A.png" class="explanation-image">
+                    <div id="wallet_instruction_01"></div>
+                    <div id="wallet_instruction_02"></div>
+                    <!-- <img src="./assets/wallet_instruction_2x.png" class="explanation-image"> -->
                 </article>
             </main>
         </div>
-        <script type="text/javascript" src="index.js"></script>
+        <!-- <script type="text/javascript" src="index.js"></script> -->
     </body>
 </html>
