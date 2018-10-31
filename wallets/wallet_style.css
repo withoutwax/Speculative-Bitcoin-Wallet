@@ -45,7 +45,7 @@
     max-width: 1000px;
     text-align: center;
 
-    margin-bottom: 50px;
+    /*margin-bottom: 25px;*/
 }
 .wallet-main > header > p {
     text-align: justify !important;

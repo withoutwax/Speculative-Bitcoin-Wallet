@@ -6,7 +6,7 @@ and (orientation : landscape) {
         margin: auto;
     }
     .main-image > div {
-        zoom: 0.8;
+        zoom: 0.7;
     }
 }
 
