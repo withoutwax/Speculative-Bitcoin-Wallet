@@ -1,4 +1,15 @@
 /*WALLETS*/
+/*IPAD SIZE*/
+@media screen and (max-width: 768px) {
+    .wallet-main > header > p {
+        font-size: 0.8em;
+        text-align: center !important;
+    }
+    .wallet-main > span {
+        zoom: 0.45;
+    }
+}
+
 /*IPHONE SIZE*/
 @media only screen and (max-width: 430px) {
 
@@ -22,11 +33,24 @@
         max-width: 100vw;
     }
     .wallet-main > header > p {
-        font-size: 0.8em;
+        font-size: 0.75em;
         text-align: center !important;
     }
     .wallet-main > span {
         zoom: 0.23;
     }
 
+}
+
+@media only screen and (min-width: 375px)
+and (max-width : 812px)
+and (orientation : landscape) {
+    .wallet-main > header > p {
+        /*color: red;*/
+        /*font-size: 0.8em;*/
+        text-align: center !important;
+    }
+    .wallet-main > span {
+        zoom: 0.5;
+    }
 }
