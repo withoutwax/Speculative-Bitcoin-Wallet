@@ -1,4 +1,5 @@
 /*LANDING PAGE*/
+/*IPAD SIZE*/
 @media screen and (min-width: 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
@@ -22,6 +23,12 @@ and (orientation : landscape) {
 
 /*IPHONE SIZE*/
 @media screen and (max-width: 375px) {
+    a {
+        height: 50px;
+    }
+    .landing-navigation {
+        margin-bottom: 20px;
+    }
     .landing-navigation > h1 {
         text-align: center;
     }
@@ -42,11 +49,15 @@ and (orientation : landscape) {
         text-align: center;
     }
     .main-info {
+        order: 2;
+
         display: flex;
         flex-direction: column;
         justify-self: center;
     }
     .main-image {
+        order: 1;
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
